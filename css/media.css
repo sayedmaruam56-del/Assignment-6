@@ -1,0 +1,235 @@
+@media (max-width: 576px) {
+  /* =========================== start general style ============= */
+  .header-center-p::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background-color: var(--main-color);
+    top: 10%;
+    left: 15%;
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 20%);
+  }
+  .header-center-p::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background-color: var(--main-color);
+    top: 10%;
+    right: 15%;
+    transform: rotateY(180deg);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 20%);
+  }
+  .header-center-p2::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 22%;
+  left: 1%;
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 20%);
+}
+.header-center-p2::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 22%;
+  right: 1%;
+  transform: rotateY(180deg);
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 20%);
+}
+.header-center-p3::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 18%;
+  left: 6%;
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 20%);
+}
+.header-center-p3::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 18%;
+  right: 6%;
+  transform: rotateY(180deg);
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 20%);
+}
+.h3-heading{
+  font-size: 25px;
+}
+  /* =========================== end general style ============= */
+  /* =========================== start navbar style ============= */
+  .nav-link {
+    margin-block: 10px;
+    border-bottom: 1px solid rgb(214, 210, 210);
+  }
+  .nav-span {
+    display: inline;
+    font-size: 0.9375rem;
+  }
+  .icn-hover i {
+    font-size: 0.9375rem;
+    margin-right: 20px;
+  }
+  .form-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 30px !important;
+  }
+  .nav-hover-btn{
+    width: 100% !important;
+  }
+  /* =========================== end navbar style ============= */
+
+  /* =========================== start hero style ============= */
+  .right-hero {
+    width: 95%;
+    margin: auto;
+  }
+  .hero-btn {
+    display: block !important;
+    padding-block: 30px;
+  }
+  .hero-btn button {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .image-right-hero {
+    height: 250px !important;
+  }
+  .abs-div {
+    border: 1px solid gray;
+    border-radius: 10px;
+    transform: translate(-20px, -70px) !important;
+  }
+  .header-center-p {
+    font-size: 0.75rem !important;
+  }
+  .h2-center {
+    font-size: 1.625rem;
+  }
+  .btns {
+    width: 100%;
+    display: block !important;
+  }
+  .btns-indecators {
+    width: 35%;
+    height: 60px;
+    margin: auto !important;
+  }
+  .corsul-btn {
+    font-size: 12px;
+    width: 100%;
+  }
+  .card2 {
+    display: none;
+  }
+  .overlay-bottom{
+    transform: translateY(400px);
+    transition: 0.4s;
+}
+.card:hover .overlay-bottom{
+  transform: translateY(250px);
+
+}
+
+}
+@media (min-width: 577px) and (max-width: 884px) {
+  /* ====================== start hero section ============================================ */
+  .hero-info {
+    text-align: center !important;
+  }
+  .hero-btn {
+    margin-top: 3.125rem;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+   .header-center-p::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background-color: var(--main-color);
+    top: 10%;
+    left: 28%;
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 20%);
+  }
+  .header-center-p::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background-color: var(--main-color);
+    top: 10%;
+    right: 28%;
+    transform: rotateY(180deg);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 20%);
+  }
+  .header-center-p2::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 17%;
+  left: 25%;
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 20%);
+}
+.header-center-p2::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 17%;
+  right: 25%;
+  transform: rotateY(180deg);
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 20%);
+}
+.header-center-p3::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 18.5%;
+  left: 26%;
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 20%);
+}
+.header-center-p3::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 18.5%;
+  right: 26%;
+  transform: rotateY(180deg);
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 20%);
+}
+  /* ====================== end hero section ============================================ */
+  .btns {
+    width: 70%;
+  }
+  .btns-indecators {
+    width: 30%;
+    height: 50px;
+  }
+  .btns-hover {
+    width: 50%;
+  }
+  .card3 {
+    display: none;
+  }
+}
